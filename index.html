@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="股天乐游大A - 专业Python量化交易工具，A股智能分析、做T计算、竞价选股一站式解决">
+    <meta name="keywords" content="股天乐游大A,A股工具,Python量化,做T计算器,竞价选股,股票软件,同花顺辅助">
+    <title>股天乐游大A - A股智能交易工具箱</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">📈 股天乐游大A</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#features" class="nav-link">功能特性</a></li>
+                <li><a href="#products" class="nav-link">产品中心</a></li>
+                <li><a href="#pricing" class="nav-link">价格方案</a></li>
+                <li><a href="#faq" class="nav-link">常见问题</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">立即购买</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区 -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">🔥 A股投资者必备工具箱</span>
+                <h1>让 Python 为你的<span class="highlight">A股交易</span>保驾护航</h1>
+                <p class="hero-desc">
+                    股天乐游大A —— 专为A股散户打造的智能交易工具箱。<br>
+                    做T计算、竞价选股、重叠股票筛选、同花顺联动，全自动化运行，<br>
+                    <strong>不用写一行代码，双击就能用。</strong>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">查看全部工具 →</a>
+                    <a href="#pricing" class="btn btn-outline">💰 查看价格</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><strong>500+</strong><span>付费用户</span></div>
+                    <div class="stat"><strong>3年</strong><span>持续更新</span></div>
+                    <div class="stat"><strong>98%</strong><span>好评率</span></div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="hero-card-header">
+                        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        <span class="hero-card-title">做T计算器 v3.0</span>
+                    </div>
+                    <div class="hero-card-body">
+                        <div class="stock-line">📊 持仓成本：<span class="val">¥12.58</span></div>
+                        <div class="stock-line">📈 当前价格：<span class="val up">¥13.20 <small>+4.93%</small></span></div>
+                        <div class="stock-line">💰 建议做T区间：<span class="val range">¥12.80 ~ ¥13.50</span></div>
+                        <div class="stock-line">🎯 预期收益：<span class="val up">+¥1,280</span></div>
+                        <div class="progress-bar"><div class="fill" style="width:72%"></div></div>
+                        <div class="stock-line small">⏱ 数据刷新于 14:32:05</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特性 -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">为什么选择 <span class="highlight">股天乐游大A</span>？</h2>
+            <p class="section-subtitle">每个工具都经过真实A股交易场景打磨，不是纸上谈兵</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>双击即用，零门槛</h3>
+                    <p>所有工具打包为 .exe，双击打开就能用。不需要装 Python、不用配环境、不需要任何编程知识。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3>同花顺无缝联动</h3>
+                    <p>自动读取同花顺自选股、板块数据，一键同步，不需要手动导入导出，实时联动。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Python 驱动，智能分析</h3>
+                    <p>底层使用 Python 量化框架，支持内存读取、数据清洗、智能筛选，远超 Excel 手工操作。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>本地运行，数据安全</h3>
+                    <p>所有计算在你电脑本地完成，不上传任何数据到云端。你的自选股、持仓成本，只有你知道。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>持续更新，买了不亏</h3>
+                    <p>购买后永久免费更新。A股规则变了？软件跟着变。3年来每个工具都迭代了10+版本。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>专人售后，有问必答</h3>
+                    <p>遇到问题直接QQ/微信找我，不是机器人回复。使用问题、功能建议，我都会一一处理。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品展示 -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">🛠 产品中心</h2>
+            <p class="section-subtitle">每个工具独立售卖，也可以打包优惠购买</p>
+            <div class="products-grid">
+                <div class="product-card featured">
+                    <div class="product-badge">🏆 年度爆款</div>
+                    <div class="product-icon">📊</div>
+                    <h3>做T计算器</h3>
+                    <p class="product-desc">A股做T波段计算神器。输入持仓成本，自动算出最优买入/卖出区间，锁定日内差价利润。</p>
+                    <ul class="product-features">
+                        <li>✅ 自动计算做T买卖点</li>
+                        <li>✅ 实时盈亏预估</li>
+                        <li>✅ 历史交易记录追踪</li>
+                        <li>✅ 支持多股同时监控</li>
+                    </ul>
+                    <div class="product-price">¥98 <span>/ 永久</span></div>
+                    <a href="#contact" class="btn btn-primary btn-sm">立即购买</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🔍</div>
+                    <h3>竞价选股工具</h3>
+                    <p class="product-desc">集合竞价阶段自动筛选强势股，抓涨停、识别主力资金动向，开盘前就锁定目标。</p>
+                    <ul class="product-features">
+                        <li>✅ 9:15-9:25 实时监控</li>
+                        <li>✅ 量价异动自动预警</li>
+                        <li>✅ 历史竞价数据回测</li>
+                        <li>✅ 涨停板概率评估</li>
+                    </ul>
+                    <div class="product-price">¥128 <span>/ 永久</span></div>
+                    <a href="#contact" class="btn btn-outline btn-sm">立即购买</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🔄</div>
+                    <h3>重叠股票筛选助手</h3>
+                    <p class="product-desc">一键筛选同花顺板块中重叠的股票，发现隐藏的板块联动机会，抢先布局。</p>
+                    <ul class="product-features">
+                        <li>✅ 多板块交叉筛选</li>
+                        <li>✅ 一键同步同花顺数据</li>
+                        <li>✅ 重叠度排行</li>
+                        <li>✅ 导出Excel/CSV</li>
+                    </ul>
+                    <div class="product-price">¥88 <span>/ 永久</span></div>
+                    <a href="#contact" class="btn btn-outline btn-sm">立即购买</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价格 -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">💰 价格方案</h2>
+            <p class="section-subtitle">一次购买，永久使用，持续更新</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>🛒 单工具购买</h3>
+                    <div class="price">¥88-128</div>
+                    <p>任选一个工具，永久使用</p>
+                    <ul>
+                        <li>✅ 所选工具永久使用</li>
+                        <li>✅ 免费更新升级</li>
+                        <li>✅ QQ/微信技术支持</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">联系购买</a>
+                </div>
+                <div class="pricing-card recommended">
+                    <div class="recommended-badge">⭐ 最推荐</div>
+                    <h3>🎁 全家桶套餐</h3>
+                    <div class="price">¥228</div>
+                    <p class="price-note">原价 ¥314，省 ¥86</p>
+                    <ul>
+                        <li>✅ 做T计算器</li>
+                        <li>✅ 竞价选股工具</li>
+                        <li>✅ 重叠股票筛选助手</li>
+                        <li>✅ 未来新工具免费加</li>
+                        <li>✅ 优先技术支持</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">🔥 立即购买全家桶</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>💼 源码版</h3>
+                    <div class="price">¥398</div>
+                    <p>全家桶 + Python源码</p>
+                    <ul>
+                        <li>✅ 全家桶全部工具</li>
+                        <li>✅ 完整Python源代码</li>
+                        <li>✅ 可自行修改/二次开发</li>
+                        <li>✅ 技术架构讲解</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">联系购买</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常见问题 -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">❓ 常见问题</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">软件需要联网吗？我的交易数据安全吗？</div>
+                    <div class="faq-answer">所有计算在你电脑本地完成，<strong>不需要联网</strong>。软件不会上传任何数据到服务器，你的持仓成本、自选股列表完全保存在本地。网络仅用于软件激活验证（一次性的）。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">我不会编程，能用这个软件吗？</div>
+                    <div class="faq-answer"><strong>完全可以。</strong>所有工具都打包成了 .exe 文件，双击打开就能用，跟你平时打开微信、同花顺一模一样。不需要装 Python，不需要配环境，不需要写任何代码。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">支持哪些券商？跟同花顺什么关系？</div>
+                    <div class="faq-answer">软件<strong>读取同花顺的本地数据</strong>（自选股、板块等），支持所有同花顺合作的券商（基本覆盖国内全部券商）。你继续用同花顺看盘交易，我们的工具在后台帮你分析。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">买了之后能用多久？更新收费吗？</div>
+                    <div class="faq-answer"><strong>永久使用，更新免费。</strong>一次购买终身使用。A股交易规则变了、同花顺升级了，我们会同步更新工具，不再收取任何费用。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">用这个工具就一定能赚钱吗？</div>
+                    <div class="faq-answer"><strong>不保证。</strong>我们的工具帮助你提高分析效率、减少人工计算错误，但不构成任何投资建议。股市有风险，投资需谨慎。工具是辅助，决策靠你自己。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系/购买 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">📩 联系购买</h2>
+            <p class="section-subtitle">扫码加微信/QQ，备注"股天乐"，我看到会第一时间通过</p>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3>微信</h3>
+                    <p>扫码添加微信，直接沟通</p>
+                    <div class="qr-placeholder">微信扫码区</div>
+                    <p class="contact-note">备注"股天乐"</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🐧</div>
+                    <h3>QQ</h3>
+                    <p>112702445@qq.com</p>
+                    <p class="contact-note">备注"股天乐"优先通过</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>GitHub</h3>
+                    <p>开源项目 & 更新日志</p>
+                    <a href="https://github.com/AndyWong0769" target="_blank" class="btn btn-outline btn-sm">访问主页 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 免责声明 -->
+    <section class="disclaimer">
+        <div class="container">
+            <p><strong>⚠️ 免责声明：</strong>股天乐游大A系列工具仅供学习研究和技术交流使用，不构成任何投资建议。股市有风险，投资需谨慎。使用者需自行承担交易风险。</p>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024-2026 股天乐游大A | Powered by Python ❤️</p>
+            <p class="footer-small">本站托管于 GitHub Pages | 无需备案 | 全球可访问</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
