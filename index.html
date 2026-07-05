@@ -8,6 +8,7 @@
     <title>股天乐游大A - A股智能交易工具箱</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+    <script src="js/config.js"></script>
 </head>
 <body>
     <!-- 导航栏 -->
@@ -238,26 +239,8 @@
         <div class="container">
             <h2 class="section-title">📩 联系购买</h2>
             <p class="section-subtitle">扫码加微信/QQ，备注"股天乐"，我看到会第一时间通过</p>
-            <div class="contact-cards">
-                <div class="contact-card">
-                    <div class="contact-icon">💬</div>
-                    <h3>微信</h3>
-                    <p>扫码添加微信，直接沟通</p>
-                    <div class="qr-placeholder">微信扫码区</div>
-                    <p class="contact-note">备注"股天乐"</p>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">🐧</div>
-                    <h3>QQ</h3>
-                    <p>112702445@qq.com</p>
-                    <p class="contact-note">备注"股天乐"优先通过</p>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">📧</div>
-                    <h3>GitHub</h3>
-                    <p>开源项目 & 更新日志</p>
-                    <a href="https://github.com/AndyWong0769" target="_blank" class="btn btn-outline btn-sm">访问主页 →</a>
-                </div>
+            <div class="contact-cards" id="contactCards">
+                <!-- 动态加载自 js/config.js -->
             </div>
         </div>
     </section>
