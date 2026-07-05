@@ -239,8 +239,32 @@
         <div class="container">
             <h2 class="section-title">📩 联系购买</h2>
             <p class="section-subtitle">扫码加微信/QQ，备注"股天乐"，我看到会第一时间通过</p>
-            <div class="contact-cards" id="contactCards">
-                <!-- 动态加载自 js/config.js -->
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3>微信</h3>
+                    <p>扫码添加微信，直接沟通</p>
+                    <div class="qr-wrapper">
+                        <img id="wechatQRImg" src="images/wechat-qr.png" alt="微信二维码"
+                             style="display:none;width:140px;height:140px;margin:12px auto;border-radius:8px;object-fit:contain;border:2px solid var(--border);"
+                             onload="this.style.display='block'; this.nextElementSibling.style.display='none';"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="qr-placeholder" id="qrPlaceholder">请上传微信二维码</div>
+                    </div>
+                    <p class="contact-note">备注"股天乐"</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🐧</div>
+                    <h3>QQ</h3>
+                    <p id="contactQQ">945489562@qq.com</p>
+                    <p class="contact-note">备注"股天乐"优先通过</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>GitHub</h3>
+                    <p>开源项目 & 更新日志</p>
+                    <a href="https://github.com/AndyWong0769" target="_blank" class="btn btn-outline btn-sm">访问主页 →</a>
+                </div>
             </div>
         </div>
     </section>
