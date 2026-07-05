@@ -6,8 +6,8 @@
 const SITE_CONFIG = {
     // 联系方式
     contact: {
-        qq: '112702445@qq.com',        // 👈 改QQ号改这里
-        wechat: '你的微信号',            // 👈 改微信号改这里
+        qq: '945489562@qq.com',        // 👈 改QQ号改这里
+        wechat: 'andy664940',            // 👈 改微信号改这里
         github: 'https://github.com/AndyWong0769'
     },
 
